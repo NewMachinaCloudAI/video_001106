@@ -1,0 +1,2 @@
+# video-000101
+This AWS Lambda function will get triggered when an image file is uploaded into a S3 bucket folder.  It will get the file name, and use a Amazon Textract boto3 client to process the image and extract the text embedded in the image.
